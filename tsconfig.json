@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "types": ["node"],
+    "target": "es2017",
+    "module": "commonjs",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "dist",
+    "lib": [
+      "es2020",
+    ],
+  },
+  "include": [
+    "index.ts",
+  ],
+  "exclude":[
+    "dist",
+    "node_modules/",
+    "**/test",
+    "**/tests",
+  ]
+}

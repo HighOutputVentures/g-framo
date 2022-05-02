@@ -1,0 +1,4 @@
+node_modules
+tsconfig.json
+index.ts
+.gitignore
